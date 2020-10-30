@@ -6,7 +6,7 @@ h1 {
 
 .backgroundDiv {
   font-family: "Raleway", sans-serif;
-  background-image: url("../assets/moroccan-flower.png");
+  background-image: url("../../assets/moroccan-flower.png");
   margin: auto;
 }
 
@@ -43,7 +43,7 @@ h1 {
 .container {
   border: 5px solid black;
   font-family: "Raleway", sans-serif;
-  background-image: url("../assets/moroccan-flower.png");
+  background-image: url("../../assets/moroccan-flower.png");
   display: flex;
   flex-direction: row;
   justify-content: center;

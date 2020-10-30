@@ -1,0 +1,201 @@
+<div>
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"
+        ><img src="../../assets/img/logo.png"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner i">
+      <div class="carousel-item active">
+        <img
+          src="../../assets/img/background.png"
+          alt="i1"
+          width="100%"
+          height="100%"
+        />
+        <div class="carousel-caption">
+          <h1 class="display-2">Bootstrap</h1>
+          <h3>complete website layout</h3>
+          <button type="button" class="btn btn-outline-light btn-lg">
+            VIEW DEMO
+          </button>
+          <button type="button" class="btn btn-primary btn-lg">
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="../../assets/img/background2.png"
+          alt="i2"
+          width="100%"
+          height="100%"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="../../assets/img/background3.png"
+          alt="i3"
+          width="100%"
+          height="100%"
+        />
+      </div>
+    </div>
+    <a class="carousel-control left" href="#slides" data-slide="prev">
+      <span class="icon-prev left"></span>
+    </a>
+
+    <a class="carousel-control right" href="#slides" data-slide="next">
+      <span class="icon-next right"></span>
+    </a>
+  </div>
+</div>
+
+<div>
+  <div class="container-fluid">
+    <div class="row jumbotron">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <p class="lead">some jumbotron text asdasdsad asdasdasdsad asdsadsad</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <button class="btn btn-outline-dark btn-lg">Web Hosting</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Build with ease</h1>
+    </div>
+    <hr style="border-top: 1px solid #8c8b8b" />
+    <div class="col-12">
+      <p class="lead">Welcome to bootstrap!</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <i class="fa fa-code"></i>
+      <h3>HTML</h3>
+      <p>Learn HTML</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <i class="fa fa-css3"></i>
+      <h3>CSS</h3>
+      <p>Learn CSS</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <i class="fa fa-html5"></i>
+      <h3>HTML5</h3>
+      <p>Learn HTML</p>
+    </div>
+  </div>
+  <hr class="my-4" />
+  <div class="row text-center padding">
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <i class="fa fa-code"></i>
+      <h3>HTML</h3>
+      <p>Learn HTML</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <i class="fa fa-css3"></i>
+      <h3>CSS</h3>
+      <p>Learn CSS</p>
+    </div>
+  </div>
+  <hr class="my-4" />
+</div>
+
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-lg-6">
+      <h3>Create and build stuffs!!</h3>
+      <p>create and build cool stuffs</p>
+      <button class="btn btn-primary">click me</button>
+    </div>
+    <br />
+    <div class="col-lg-6">
+      <img
+        src="../../assets/img/desk.png"
+        alt="img-fluid"
+        height="400"
+        width="500"
+      />
+    </div>
+  </div>
+</div>
+
+<hr class="my-4" />
+
+<figure>
+  <div class="fixed-wrap"></div>
+</figure>
+
+<button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="collapse" (click)="funButton()">click for fun</button>
+<div *ngIf="displayEmoji">
+  <div class="container-fluid padding">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img class="gif" src="../../assets/img/gif/chicken.gif" height="300" width="370"/>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img class="gif" src="../../assets/img/gif/panda.gif" height="300" width="370"/>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img class="gif" src="../../assets/img/gif/poo.gif" height="300" width="370" />
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <img class="gif" src="../../assets/img/gif/unicorn.gif" height="300" width="370"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="../../assets/img/team1.png">
+      </div>
+    </div>
+  </div>
+</div>
